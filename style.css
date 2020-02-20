@@ -1,0 +1,88 @@
+body{
+    background-image: url("./images/back\ ground.jpg");
+    background-size: 100% auto;
+    justify-content: center;
+}
+.center {
+    width: 25%;
+    margin: 6% auto;
+    direction: rtl;
+	margin-bottom: 0px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 55px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 20px;
+}
+.in{
+    width: 80%;
+    height: 35px;
+    margin: 35px auto;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 1.1em;
+}
+input::placeholder{
+    color: #fff;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin: 35px auto;
+    width: 83%;
+    color: #fff;
+    height: 55px;
+    background-color: #1D89E4;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.but:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+span{
+    color: #fff;
+    font-size: 0.8em;
+    position: relative;
+}
+a{
+    color: #fff;
+    font-size: 0.8em;
+}
+.check {
+    display: inline-block;
+    margin-right: 35px;
+}
+.space {
+    display: inline-block;
+    width: 15px;
+}
+.books {
+    margin: 40px 42%;
+	margin-bottom: 0px;
+}
+.b1 {
+    background-image: url("./images/user.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.b2 {
+    background-image: url("./images/lock.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
